@@ -59,20 +59,61 @@
         //         break;
         // }
         
-        // arrays:
+        // // arrays:
 
-        $foods = array("pasta", "pizza", "fried-chickne");
-        $country = ["India", "USA", "Japan"];
-        echo $foods[1];
-        $foods[] = "biriyani"; // appends this item at the end
-        // remove from the array:
-        unset($foods[1]);
-        echo $foods[1]; // now removed
-        // better metho to remove item from array:
-        array_splice($foods, 0, 1); // array, starting index, 
-        // for ($i=0;4 $i < 4; $i++) { 
-            
-        // }
+        // $foods = array("pasta", "pizza", "fried-chickne");
+        // $country = ["India", "USA", "Japan"];
+        // // echo $foods[1];
+        // $foods[] = "biriyani"; // appends this item at the end
+
+        // // remove from the array:
+
+        // // unset($foods[1]);
+        // // echo $foods[1]; // now removed
+
+        // // better metho to remove item from array: this would actually remove pasta and move pizza to index 0
+
+        // array_splice($foods, 0, 1); // array, starting index, length to go
+        // echo $foods[0];
+        
+        // // associative array:
+
+        // $myFavFoods = [
+        //     1 => "pasta",
+        //     2 => "pizza",
+        //     3 => "biriyani"
+        // ];
+
+        // echo "<br>";
+        // echo $myFavFoods[1];
+
+        // // multidiamentional array:
+
+        // $fruits = [
+        //     array("apple", "banana"),
+        //     "orange",
+        //     "mango"
+        // ];
+
+        // echo "<br>";
+        // print_r($fruits); // literally prints the arrray as it is
+
+        // echo "<br>";
+        // echo $fruits[2][0];
+
+        // echo "<br>";
+        // $f1Drivers = ["Max", "Lando", "Oscar"];
+        // echo $f1Drivers[0][0];
+        
+        // array_splice($fruits, 0, 1);
+        // echo "<br>";
+        // echo $fruits[0]; 
+        // echo "<br>";
+        // print_r($fruits);
+
+        // Strings:
+
+
 
     ?>
 </body>
