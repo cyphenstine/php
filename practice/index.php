@@ -71,7 +71,7 @@
         // // unset($foods[1]);
         // // echo $foods[1]; // now removed
 
-        // // better metho to remove item from array: this would actually remove pasta and move pizza to index 0
+        // // better method to remove item from array: this would actually remove pasta and move pizza to index 0
 
         // array_splice($foods, 0, 1); // array, starting index, length to go
         // echo $foods[0];
@@ -104,14 +104,45 @@
         // echo "<br>";
         // $f1Drivers = ["Max", "Lando", "Oscar"];
         // echo $f1Drivers[0][0];
-        
+
         // array_splice($fruits, 0, 1);
         // echo "<br>";
         // echo $fruits[0]; 
         // echo "<br>";
         // print_r($fruits);
 
-        // Strings:
+        // // array functions:
+
+        // $array = ["apple", "banana", "orange"];
+        // $array2 = ["mango", "pear", "date"];
+        // echo count($array); // count elements
+        
+        // array_push($array, "kiwi"); // pushed at the end
+
+        // array_pop($array); // pops last element
+        
+        // echo "<br>";
+        // print_r(array_reverse($array));
+        
+        // echo "<br>";
+        // print_r(array_merge($array, $array2));
+
+        // // Strings:
+        
+        // $string = "hello world!";
+
+        // echo strlen($string);
+        // echo "<br>";
+        // echo str_replace("world!", "World!", $string); // "what_do_you_want_to_replace", "with_what", array
+        // echo "<br>";
+        // echo strtolower($string);
+
+        // // substrings:
+
+        // $string = "Aritra Kumar";
+        // echo substr($string, 1, 2); // array, starting_index, length to go
+        // echo "<br>";
+        // echo substr($string, 2, -2); // -2 here means stop that many characters before the end of the string, result: itra Kum
 
 
 
