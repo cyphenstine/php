@@ -144,8 +144,26 @@
         // echo "<br>";
         // echo substr($string, 2, -2); // -2 here means stop that many characters before the end of the string, result: itra Kum
 
+        // foreach loop:
 
+        // $array = ["apple", "banana", "orange"];
+        // foreach ($array as $fruit) {
+        //     echo $fruit . "<br>";
+        // }
 
+        // $myFavFoods = [
+        //     1 => "pasta",
+        //     2 => "pizza",
+        //     3 => "biriyani"
+        // ];
+
+        // foreach ($myFavFoods as $key => $value) {
+        //     echo "key: " . $key . " " . "value: " . $value . "<br>";
+        // }
+
+        // foreach ($myFavFoods as $food) {
+        //     echo $food . "<br>"; // here it would spit out the value, not key
+        // }
     ?>
 </body>
 </html>
