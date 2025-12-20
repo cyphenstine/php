@@ -44,6 +44,7 @@
         // echo $a . " " . $b;
 
         // switch case:
+
         // $number = 2;
         // switch ($number) {
         //     case 1:
@@ -62,14 +63,24 @@
         // // arrays:
 
         // $foods = array("pasta", "pizza", "fried-chickne");
-        // $country = ["India", "USA", "Japan"];
-        // // echo $foods[1];
+        // // $country = ["India", "USA", "Japan"];
+        // echo $foods[1] . "<br><br>";
         // $foods[] = "biriyani"; // appends this item at the end
+        // foreach($foods as $food){
+        //     echo $food . "<br>";
+        // }
+
+        // print_r($foods);
+
+        // echo "<br>";
 
         // // remove from the array:
 
-        // // unset($foods[1]);
+        // unset($foods[1]); // unsets the value of the index but index still exists. It does not moves the array up, if printed throws an error
         // // echo $foods[1]; // now removed
+        // foreach($foods as $food){
+        //     echo $food . "<br>";
+        // }
 
         // // better method to remove item from array: this would actually remove pasta and move pizza to index 0
 
@@ -96,7 +107,7 @@
         // ];
 
         // echo "<br>";
-        // print_r($fruits); // literally prints the arrray as it is
+        // print_r($fruits); // literally prints the arrray as it is, if used on normal array, it prints it like an associative array
 
         // echo "<br>";
         // echo $fruits[2][0];
