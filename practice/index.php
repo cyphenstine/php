@@ -7,8 +7,8 @@
 </head>
 <body style = "background-color: #000000; color: #ffffff">
 
-    <!-- <main>
-        <form action="./formHandler.php" method = "post">
+    <main>
+        <form action="./includes/formHandler.inc.php" method = "post">
             <label for="firstname">Firstname: </label>
             <input type="text" name="firstname" id="firstname" placeholder = "enter your firstname...">
             <br><br>
@@ -26,7 +26,7 @@
             <br><br>
             <button type="submit">submit</button>
          </form>
-    </main> -->
+    </main>
     <?php
 
         // echo "hello world<br>";
@@ -94,6 +94,8 @@
         //     2 => "pizza",
         //     3 => "biriyani"
         // ];
+
+        // echo count($myFavFoods); // returns how many elements in the array
 
         // echo "<br>";
         // echo $myFavFoods[1];
